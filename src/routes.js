@@ -59,7 +59,7 @@ import SignIn from "layouts/pages/authentication/sign-in";
 // import Alerts from "layouts/sections/attention-catchers/alerts";
 // import Modals from "layouts/sections/attention-catchers/modals";
 // import TooltipsPopovers from "layouts/sections/attention-catchers/tooltips-popovers";
-import Avatars from "layouts/sections/elements/avatars";
+// import Calculator from "layouts/sections/elements/calculator/calc";
 // import Badges from "layouts/sections/elements/badges";
 // import BreadcrumbsEl from "layouts/sections/elements/breadcrumbs";
 // import Buttons from "layouts/sections/elements/buttons";
@@ -107,9 +107,9 @@ const routes = [
     icon: <Icon>view_day</Icon>,
     collapse: [
       {
-        name: "Calculator",
-        route: "/sections/elements/avatars",
-        component: <Avatars />,
+        // name: "Calculator",
+        // route: "/sections/elements/avatars",
+        // component: <Calculator />,
         // name: "elements",
         // description: "See all 32 examples",
         // dropdown: true,

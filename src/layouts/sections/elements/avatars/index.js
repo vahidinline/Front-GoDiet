@@ -28,7 +28,7 @@ import avatarSizeCode from "layouts/sections/elements/avatars/components/AvatarS
 function Avatars() {
   return (
     <BaseLayout
-      title="Avatars"
+      title="Calculator"
       breadcrumb={[
         { label: "Page Sections", route: "/sections/elements/avatars" },
         { label: "Avatars" },
