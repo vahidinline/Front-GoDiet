@@ -85,7 +85,7 @@ function Presentation() {
                 },
               })}
             >
-              FITLINEZ
+              GoDiet
             </MKTypography>
           </Grid>
         </Container>
