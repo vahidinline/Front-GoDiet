@@ -24,11 +24,11 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+// import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // Routes
 import routes from "routes";
-import footerRoutes from "footer.routes";
+// import footerRoutes from "footer.routes";
 
 // Image
 import bgImage from "assets/images/illustrations/illustration-reset.jpg";
@@ -41,8 +41,8 @@ function ContactUs() {
           routes={routes}
           action={{
             type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-react",
-            label: "free download",
+            route: "",
+            label: "Download (soon)",
             color: "info",
           }}
         />
@@ -96,7 +96,7 @@ function ContactUs() {
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
                 For further questions, including partnership opportunities, please email
-                hello@creative-tim.com or contact using our contact form.
+                info@godiet.eu or contact using our contact form.
               </MKTypography>
               <MKBox width="100%" component="form" method="post" autocomplete="off">
                 <Grid container spacing={3}>
@@ -139,9 +139,9 @@ function ContactUs() {
           </MKBox>
         </Grid>
       </Grid>
-      <MKBox pt={6} px={1} mt={6}>
+      {/* <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
-      </MKBox>
+      </MKBox> */}
     </>
   );
 }

@@ -47,8 +47,8 @@ function AboutUs() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "",
+          label: "Download (soon)",
           color: "default",
         }}
         transparent
@@ -98,7 +98,7 @@ function AboutUs() {
             {/* <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
               create account
             </MKButton> */}
-            <MKTypography variant="h6" color="white" mt={8} mb={1}>
+            {/* <MKTypography variant="h6" color="white" mt={8} mb={1}>
               Find us on
             </MKTypography>
             <MKBox display="flex" justifyContent="center" alignItems="center">
@@ -114,7 +114,7 @@ function AboutUs() {
               <MKTypography component="a" variant="body1" color="white" href="#">
                 <i className="fab fa-google-plus" />
               </MKTypography>
-            </MKBox>
+            </MKBox> */}
           </Grid>
         </Container>
       </MKBox>

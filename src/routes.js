@@ -45,7 +45,6 @@ import Icon from "@mui/material/Icon";
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
-// import Author from "layouts/pages/landing-pages/author";
 import SignIn from "layouts/pages/authentication/sign-in";
 
 // Sections
@@ -102,62 +101,7 @@ const routes = [
       },
     ],
   },
-  {
-    name: "sections",
-    icon: <Icon>view_day</Icon>,
-    collapse: [
-      {
-        // name: "Calculator",
-        // route: "/sections/elements/avatars",
-        // component: <Calculator />,
-        // name: "elements",
-        // description: "See all 32 examples",
-        // dropdown: true,
-        // collapse: [
-        //   {
-        //     name: "avatars",
-        //     route: "/sections/elements/avatars",
-        //     component: <Avatars />,
-        //   },
-        //   // {
-        //   //   name: "badges",
-        //   //   route: "/sections/elements/badges",
-        //   //   component: <Badges />,
-        //   // },
-        //   // {
-        //   //   name: "breadcrumbs",
-        //   //   route: "/sections/elements/breadcrumbs",
-        //   //   component: <BreadcrumbsEl />,
-        //   // },
-        //   // {
-        //   //   name: "buttons",
-        //   //   route: "/sections/elements/buttons",
-        //   //   component: <Buttons />,
-        //   // },
-        //   // {
-        //   //   name: "dropdowns",
-        //   //   route: "/sections/elements/dropdowns",
-        //   //   component: <Dropdowns />,
-        //   // },
-        //   // {
-        //   //   name: "progress bars",
-        //   //   route: "/sections/elements/progress-bars",
-        //   //   component: <ProgressBars />,
-        //   // },
-        //   // {
-        //   //   name: "toggles",
-        //   //   route: "/sections/elements/toggles",
-        //   //   component: <Toggles />,
-        //   // },
-        //   // {
-        //   //   name: "typography",
-        //   //   route: "/sections/elements/typography",
-        //   //   component: <Typography />,
-        //   // },
-        // ],
-      },
-    ],
-  },
+
   // {
   //   name: "docs",
   //   icon: <Icon>article</Icon>,

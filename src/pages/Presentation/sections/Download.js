@@ -58,10 +58,10 @@ function Download() {
               color="info"
               size="large"
               component="a"
-              href="https://www.creative-tim.com/product/material-kit-react"
+              href=""
               sx={{ mb: 2 }}
             >
-              Download Now
+              Download (soon){" "}
             </MKButton>
           </Grid>
         </Container>

@@ -1,13 +1,12 @@
 /* eslint-disable no-param-reassign */
 /**
 =========================================================
-* Material Kit 2 React - v2.0.0
+Fitlinez
+
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
 
-Coded by www.creative-tim.com
+Coded by Vahid
 
  =========================================================
 
@@ -551,7 +550,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
 
 // Setting default values for the props of DefaultNavbar
 DefaultNavbar.defaultProps = {
-  brand: "GoDiet",
+  brand: "FitLinez",
   transparent: false,
   light: false,
   action: false,

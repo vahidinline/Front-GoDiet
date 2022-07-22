@@ -22,12 +22,12 @@ import { Link } from "react-router-dom";
 import Card from "@mui/material/Card";
 import Switch from "@mui/material/Switch";
 import Grid from "@mui/material/Grid";
-import MuiLink from "@mui/material/Link";
+// import MuiLink from "@mui/material/Link";
 
-// @mui icons
-import FacebookIcon from "@mui/icons-material/Facebook";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import GoogleIcon from "@mui/icons-material/Google";
+// // @mui icons
+// import FacebookIcon from "@mui/icons-material/Facebook";
+// import GitHubIcon from "@mui/icons-material/GitHub";
+// import GoogleIcon from "@mui/icons-material/Google";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -37,7 +37,7 @@ import MKButton from "components/MKButton";
 
 // Material Kit 2 React example components
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import SimpleFooter from "examples/Footers/SimpleFooter";
+// import SimpleFooter from "examples/Footers/SimpleFooter";
 
 // Material Kit 2 React page layout routes
 import routes from "routes";
@@ -56,8 +56,8 @@ function SignInBasic() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "",
+          label: "Download (soon)",
           color: "info",
         }}
         transparent
@@ -99,7 +99,7 @@ function SignInBasic() {
                 <MKTypography variant="h4" fontWeight="medium" color="white" mt={1}>
                   Sign in
                 </MKTypography>
-                <Grid container spacing={3} justifyContent="center" sx={{ mt: 1, mb: 2 }}>
+                {/* <Grid container spacing={3} justifyContent="center" sx={{ mt: 1, mb: 2 }}>
                   <Grid item xs={2}>
                     <MKTypography component={MuiLink} href="#" variant="body1" color="white">
                       <FacebookIcon color="inherit" />
@@ -115,7 +115,7 @@ function SignInBasic() {
                       <GoogleIcon color="inherit" />
                     </MKTypography>
                   </Grid>
-                </Grid>
+                </Grid> */}
               </MKBox>
               <MKBox pt={4} pb={3} px={3}>
                 <MKBox component="form" role="form">
@@ -163,9 +163,9 @@ function SignInBasic() {
           </Grid>
         </Grid>
       </MKBox>
-      <MKBox width="100%" position="absolute" zIndex={2} bottom="1.625rem">
+      {/* <MKBox width="100%" position="absolute" zIndex={2} bottom="1.625rem">
         <SimpleFooter light />
-      </MKBox>
+      </MKBox> */}
     </>
   );
 }
