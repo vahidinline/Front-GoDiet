@@ -30,30 +30,9 @@ function Pricing() {
     setTabType(currentTarget.id);
   };
 
-  const handlePaymentRial = ({ id }) => {
-    fetch("http://localhost:8080/create-checkout-session", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        items: [{ id }],
-      }),
-    })
-      .then((res) => {
-        if (res.ok) return res.json();
-        return res.json().then((json) => Promise.reject(json));
-      })
-      .then(({ url }) => {
-        window.location = url;
-      })
-      .catch((e) => {
-        console.error(e.error);
-      });
-  };
-
   const handlePayment = ({ id }) => {
-    fetch("http://localhost:8080/create-checkout-session", {
+    console.log(id);
+    fetch("https://backendfitlinez.herokuapp.com/subscription", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -258,7 +237,7 @@ function Pricing() {
                     onClick:
                       tabType === "rial"
                         ? () => handlePayment({ id: 3 })
-                        : () => handlePaymentRial({ id: 3 }),
+                        : () => handlePayment({ id: 4 }),
                     color: "light",
                     label: tabType === "rial" ? "خرید " : "Buy",
                   }}

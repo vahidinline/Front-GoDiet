@@ -47,6 +47,7 @@ import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import SignIn from "layouts/pages/authentication/sign-in";
 import Pricing from "pages/Company/Pricing";
+import Privacy from "pages/Company/Privacy";
 
 // Sections
 // import PageHeaders from "layouts/sections/page-sections/page-headers";
@@ -92,6 +93,11 @@ const routes = [
             name: "Pricing",
             route: "/pages/Company/Pricing",
             component: <Pricing />,
+          },
+          {
+            name: "Privacy",
+            route: "/pages/Company/Privacy",
+            component: <Privacy />,
           },
         ],
       },
